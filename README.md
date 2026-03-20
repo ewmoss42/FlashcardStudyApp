@@ -1,50 +1,76 @@
-# Welcome to your Expo app 👋
+# Flashcard Study App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Description
 
-## Get started
+This project is a mobile Flashcard Study App built using React Native and Expo. The application allows users to study flashcards, take quizzes, and edit questions directly within the app. It demonstrates core mobile development concepts such as user interaction, state management, and multi-screen navigation using conditional rendering.
 
-1. Install dependencies
+The app includes a welcome screen, a main menu, a flashcard study mode, a quiz mode with score tracking, and an edit feature that allows users to modify the flashcard content.
 
-   ```bash
+---
+
+## Instructions for Build and Use
+
+### Software Demo
+https://youtu.be/GZeJlePOv5Y
+
+---
+
+### Steps to build and/or run the software:
+
+1. Install Node.js (version 18 or higher recommended)
+
+2. Open a terminal and navigate to the project folder:
+   cd ~/Documents/FlashcardStudyApp
+
+3. Install project dependencies:
    npm install
-   ```
 
-2. Start the app
-
-   ```bash
+4. Start the Expo development server:
    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+5. Open the Expo Go app on your mobile device and scan the QR code displayed in the terminal
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Instructions for using the software:
 
-## Get a fresh project
+1. Launch the app and tap "Enter App" on the welcome screen
+2. From the main menu, choose one of the following options:
+   - Study Flashcards: Tap cards to reveal answers and cycle through questions
+   - Take Quiz: Select answers, receive feedback, and track your score
+   - Edit Questions: Modify the existing flashcard questions and answers
+3. Use navigation buttons to move between screens and return to the menu
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## Development Environment
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+To recreate the development environment, you need the following software and libraries:
 
-## Learn more
+- Node.js (v18 or higher)
+- Expo (created using create-expo-app)
+- React Native (via Expo framework)
+- Visual Studio Code (or another code editor)
+- Expo Go mobile app (iOS or Android)
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Useful Websites to Learn More
 
-## Join the community
+The following resources were helpful during development:
 
-Join our community of developers creating universal apps.
+- https://docs.expo.dev/
+- https://reactnative.dev/docs/getting-started
+- https://www.w3schools.com/react/
+- https://developer.mozilla.org/
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## Future Work
+
+The following improvements could be added in the future:
+
+- [ ] Add persistent storage so user-edited questions are saved permanently
+- [ ] Improve quiz answer choices to be more dynamic and realistic
+- [ ] Enhance the user interface with improved styling and animations
+- [ ] Add the ability to create and delete flashcards instead of only editing existing ones
